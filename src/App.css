@@ -1,0 +1,76 @@
+/* @font-face {
+  font-family: 'Latolight', sans-serif;
+  src: url('/font/Lato-Light.ttf');
+}
+@font-face {
+  font-family: 'BlackLato', sans-serif;
+  src: url('/font/Lato-BoldItalic.ttf');
+}
+@font-face {
+  font-family: 'Oswald-bold', sans-serif;
+  src: url('/font/Oswald-Bold.ttf');
+} */
+.banner{
+  background-image: url("../public/images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.history{
+  background-image: url('../public/images/banner_2.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        min-height: 711px;
+}
+sup{
+  margin-left: -2rem; 
+  top: -1.2rem;
+}
+nav a{
+  font-family: 'BlackLato', sans-serif;
+}
+h2{
+  font-family: 'Oswald-bold', sans-serif; 
+}
+p{
+  font-family: 'Latolight', sans-serif;
+}
+@media screen and (max-width: 600px) {
+  .banner{
+      height: 30vh;
+  } 
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shedul span{
+  font-family: 'Oswald-bold', sans-serif; 
+}
+.copy{
+  font-family: 'BlackLato', sans-serif;
+}
+
